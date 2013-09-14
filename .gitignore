@@ -1,0 +1,10 @@
+
+*~
+
+.DS_Store
+.SublimeREPLHistory
+
+Package Control.cache
+Package Control.last-run
+Package Control.sublime-settings
+Package Control.system-ca-bundle

@@ -1,0 +1,17 @@
+[
+    { "keys": ["ctrl+r", "ctrl+r"], "command": "python_refactor_rename", "context":
+        [
+            { "key": "selector", "operator": "equal", "operand": "source.python" }
+        ]
+    },
+
+    { "keys": ["ctrl+r", "ctrl+d"], "command": "goto_python_definition", "context":
+        [
+            { "key": "selector", "operator": "equal", "operand": "source.python" }
+        ]
+    },
+
+    { "keys": ["ctrl+shift+r"], "command": "reindent" , "args": { "single_line": false }
+
+    }
+]
