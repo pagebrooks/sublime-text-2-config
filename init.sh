@@ -1,7 +1,9 @@
 echo "Cloning all packages..."
 
+cd ..
+
 PACKAGES=(
-    https://github.com/Kronuz/SublimeCodeIntel.git
+    https://github.com/SublimeCodeIntel/SublimeCodeIntel
     https://github.com/SublimeLinter/SublimeLinter.git
     https://github.com/titoBouzout/SideBarEnhancements.git
     https://github.com/sergeche/emmet-sublime.git
